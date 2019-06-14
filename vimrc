@@ -53,7 +53,7 @@ set ruler
 set rulerformat=%20(%2*%<%f%=\ %m%r\ %3l\ %c\ %p%%%) 
 
 " 命令行（在状态行下）的高度，默认为1，这里是2 
-set cmdheight=2
+set cmdheight=1
 
 " 使回格键（backspace）正常处理indent, eol, start等 
 set backspace=2 
@@ -150,18 +150,18 @@ set guicursor+=a:blinkon0
 colorscheme desert
 
 " gvim字体
-"set guifont=Courier\ Regular\ 11
+set guifont=Courier\ Regular\ 11
 
 set foldenable
 set foldmethod=manual
 
 set cursorline
 
-autocmd BufNewFile *.v 0r ~/.vim/vimtemplate/tmplate.txt
-autocmd BufNewFile *.py 0r ~/.vim/vimtemplate/tempalte.txt
-autocmd BufNewFile *.c 0r ~/.vim/vimtemplate/tempalte.txt
-autocmd BufNewFile *.cpp 0r ~/.vim/vimtemplate/tempalte.txt
-autocmd BufNewFile *.h 0r ~/.vim/vimtemplate/tempalte.txt
+"autocmd BufNewFile *.v 0r ~/.vim/vimtemplate/tmplate.txt
+"autocmd BufNewFile *.py 0r ~/.vim/vimtemplate/tempalte.txt
+"autocmd BufNewFile *.c 0r ~/.vim/vimtemplate/tempalte.txt
+"autocmd BufNewFile *.cpp 0r ~/.vim/vimtemplate/tempalte.txt
+"autocmd BufNewFile *.h 0r ~/.vim/vimtemplate/tempalte.txt
 
 set lines=999
 set columns=999
@@ -172,3 +172,4 @@ set columns=999
 "endfunction
 "autocmd GUIEnter * call system ('wmctrl -i -b add, maximized_vert, maximized_horz -r ',.v:winowwid)
 
+"AlignCtrl Il
