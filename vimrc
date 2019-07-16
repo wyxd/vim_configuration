@@ -153,7 +153,7 @@ colorscheme desert
 set guifont=Courier\ Regular\ 11
 
 set foldenable
-set foldmethod=manual
+"set foldmethod=manual
 
 set cursorline
 
